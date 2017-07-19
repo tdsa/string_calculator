@@ -1,0 +1,12 @@
+{
+  "name": "string_calculator",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "TEST_WATCH=1 MOCHA_GREP=StringCalculator meteor test --driver-package dispatch:mocha"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "meteor-node-stubs": "~0.2.4"
+  }
+}
